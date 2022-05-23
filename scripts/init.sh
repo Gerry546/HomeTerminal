@@ -21,5 +21,5 @@ then
     ln -s ${scriptsDirectory}/templates/local.conf ${buildDirectory}/conf/local.conf
 fi
 
-. ${rootDirectory}/openembedded-core/oe-init-build-env ${buildDirectory}
+. ${rootDirectory}/layers/openembedded-core/oe-init-build-env ${buildDirectory}
 echo "Initialization done"
