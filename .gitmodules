@@ -1,15 +1,15 @@
 [submodule "bitbake"]
-	path = bitbake
+	path = layers/bitbake
 	url = git://git.openembedded.org/bitbake
 [submodule "openembedded-core"]
-	path = openembedded-core
+	path = layers/openembedded-core
 	url = git://git.openembedded.org/openembedded-core
 [submodule "meta-seeed-cm4"]
-	path = meta-seeed-cm4
+	path = layers/meta-seeed-cm4
 	url = git@github.com:Seeed-Studio/meta-seeed-cm4.git
 [submodule "meta-openembedded"]
-	path = meta-openembedded
+	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
 [submodule "meta-raspberrypi"]
-	path = meta-raspberrypi
+	path = layers/meta-raspberrypi
 	url = git://git.yoctoproject.org/meta-raspberrypi
