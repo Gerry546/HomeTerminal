@@ -7,6 +7,7 @@ COMPATIBLE_MACHINE = "^rpi$"
 
 IMAGE_FEATURES += "\
    splash \
+   weston \
 "
 
 IMAGE_FSTYPES = "wic.xz"
@@ -15,4 +16,5 @@ IMAGE_INSTALL += "\
     kernel-modules \ 
     seeed-linux-dtoverlays \
     util-linux \
+    weston-init \
 "    
