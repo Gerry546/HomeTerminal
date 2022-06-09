@@ -9,6 +9,8 @@ IMAGE_FEATURES += "\
    splash \
 "
 
+IMAGE_FSTYPES = "wic.xz"
+
 IMAGE_INSTALL += "\
     kernel-modules \ 
     seeed-linux-dtoverlays \
