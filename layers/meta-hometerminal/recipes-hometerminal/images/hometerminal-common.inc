@@ -17,4 +17,5 @@ IMAGE_INSTALL += "\
     seeed-linux-dtoverlays \
     util-linux \
     weston-init \
+    systemd \
 "    
