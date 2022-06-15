@@ -10,7 +10,7 @@ IMAGE_FEATURES += "\
    weston \
 "
 
-IMAGE_FSTYPES = "wic.xz"
+WKS_FILE = "sdimage-dual-raspberrypi.wks.in"
 
 IMAGE_INSTALL += "\
     kernel-modules \ 
@@ -18,4 +18,5 @@ IMAGE_INSTALL += "\
     util-linux \
     weston-init \
     systemd \
+    rauc \
 "    
