@@ -16,3 +16,9 @@
 [submodule "layers/meta-qt6"]
 	path = layers/meta-qt6
 	url = git://code.qt.io/yocto/meta-qt6.git
+[submodule "layers/meta-rauc"]
+	path = layers/meta-rauc
+	url = git@github.com:rauc/meta-rauc.git
+[submodule "layers/meta-rauc-community"]
+	path = layers/meta-rauc-community
+	url = git@github.com:rauc/meta-rauc-community.git
