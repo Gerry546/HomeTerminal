@@ -19,4 +19,7 @@ IMAGE_INSTALL += "\
     weston-init \
     systemd \
     rauc \
+    openssh-sshd \
+    openssh-scp \
+    nano \
 "    
