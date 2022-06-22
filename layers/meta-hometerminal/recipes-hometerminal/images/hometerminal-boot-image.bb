@@ -9,6 +9,7 @@ IMAGE_FEATURES += "\
 
 IMAGE_FSTYPES = " \
     wic.xz \
+    wic \
 "
 IMAGE_INSTALL += "\
     iperf3 \

@@ -10,7 +10,7 @@ IMAGE_FEATURES += "\
    weston \
 "
 
-WKS_FILE = "sdimage-dual-raspberrypi.wks.in"
+WKS_FILE = "hometerminal-image.wks.in"
 
 IMAGE_INSTALL += "\
     kernel-modules \ 
@@ -22,4 +22,5 @@ IMAGE_INSTALL += "\
     openssh-sshd \
     openssh-scp \
     nano \
+    parted \
 "    
