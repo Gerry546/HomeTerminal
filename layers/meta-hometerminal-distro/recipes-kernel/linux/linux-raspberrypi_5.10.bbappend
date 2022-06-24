@@ -7,6 +7,8 @@ SRC_URI += " \
         file://rauc.cfg \
 "
 
+CMDLINE:remove:rauc-integration = "root=/dev/mmcblk0p2"
+
 do_configure:append(){
         cp ${WORKDIR}/reTerminal-overlay.dts ${S}/arch/arm/boot/dts/overlays/
 }

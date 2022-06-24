@@ -22,5 +22,5 @@ IMAGE_INSTALL += "\
     openssh-sshd \
     openssh-scp \
     nano \
-    parted \
+    e2fsprogs-resize2fs \
 "    

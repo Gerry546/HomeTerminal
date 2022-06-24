@@ -2,7 +2,7 @@ DESCRIPTION = "RAUC HomeTerminal Debug Bundle"
 
 inherit bundle
 
-RAUC_BUNDLE_COMPATIBLE = "RaspberryPi4"
+RAUC_BUNDLE_COMPATIBLE = "HomeTerminal"
 RAUC_BUNDLE_VERSION = "0.0.1"
 RAUC_BUNDLE_DESCRIPTION = "HomeTerminal Debug Bundle"
 RAUC_BUNDLE_SLOTS = "rootfs" 
