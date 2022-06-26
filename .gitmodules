@@ -19,6 +19,3 @@
 [submodule "layers/meta-rauc"]
 	path = layers/meta-rauc
 	url = git@github.com:rauc/meta-rauc.git
-[submodule "layers/meta-rauc-community"]
-	path = layers/meta-rauc-community
-	url = git@github.com:rauc/meta-rauc-community.git
