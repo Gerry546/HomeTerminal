@@ -1,24 +1,15 @@
-# HomeTerminal
+HomeTerminal
+------------
 
 Todo
+====
 
 ==============================================      ======
 Task                                                Status
-----------------------------------------------      ------
 Enable RAUC Verity format Open                      -
 Create good RAUC key generation                     -
 Fix dual boot + data partition                      Done
 Move status RAUC status file to data partition      -
 Move journald to data partition                     -
 Move browser start service to own recipe            -
-
-===== ========= =====
-Table Headings  Here
---------------- -----
-Sub   Headings  Too
-===== ========= =====
-column spanning no
---------------- -----
-cell  cell      row
-column spanning spans
-=============== =====
+==============================================      ======
