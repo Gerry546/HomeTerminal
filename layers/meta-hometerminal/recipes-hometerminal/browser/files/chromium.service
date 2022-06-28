@@ -1,0 +1,14 @@
+[Unit]
+Description=Chromium Start
+After=weston.service
+Requires=weston.service
+
+[Service]
+User=weston
+Restart=always
+Type=simple
+EnvironmentFile=-/etc/default/chromium
+ExecStart=/usr/bin/chromium --no-sandbox > /dev/null 2>&1 &
+
+[Install]
+WantedBy=multi-user.target

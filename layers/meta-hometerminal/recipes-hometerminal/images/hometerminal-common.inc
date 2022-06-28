@@ -23,4 +23,6 @@ IMAGE_INSTALL += "\
     openssh-scp \
     nano \
     e2fsprogs-resize2fs \
+    chromium-ozone-wayland \
+    hometerminal-browser \
 "    
