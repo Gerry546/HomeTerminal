@@ -22,7 +22,15 @@ IMAGE_INSTALL += "\
     openssh-sshd \
     openssh-scp \
     nano \
-    e2fsprogs-resize2fs \
     chromium-ozone-wayland \
     hometerminal-browser \
-"    
+    e2fsprogs-resize2fs \
+    hometerminal-provisioning \
+"
+
+ROOTFS_POSTPROCESS_COMMAND += "do_fixup;"
+
+do_fixup() {
+    # Make mount directory for the data directory
+    mkdir -p ${IMAGE_ROOTFS}/data
+}

@@ -13,6 +13,6 @@ SYSTEMD_SERVICE:${PN} += " \
 
 do_install() {
     # add init script scripts to systemd
-    install -m 0755 -d ${D}${systemd_system_unitdir}
+    install -d ${D}${systemd_system_unitdir}
     install -m 0644 ${WORKDIR}/chromium.service ${D}${systemd_system_unitdir}
 }
