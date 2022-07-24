@@ -24,6 +24,8 @@ IMAGE_INSTALL += "\
     nano \
     chromium-ozone-wayland \
     hometerminal-browser \
+    e2fsprogs-resize2fs \
+    hometerminal-provisioning \
 "
 
 ROOTFS_POSTPROCESS_COMMAND += "do_fixup;"

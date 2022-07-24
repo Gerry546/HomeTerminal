@@ -15,6 +15,4 @@ IMAGE_INSTALL += "\
     iperf3 \
     i2c-tools \
     evtest \
-    e2fsprogs-resize2fs \
-    hometerminal-provisioning \
 "

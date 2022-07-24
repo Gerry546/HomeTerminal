@@ -1,0 +1,9 @@
+[Unit]
+Description=Automatic partitioning of the data drive on change
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/hometerminal-partitioning.sh
+
+[Install]
+WantedBy=multi-user.target
